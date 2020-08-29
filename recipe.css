@@ -1,0 +1,10 @@
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 100%;
+    }
+}
