@@ -92,3 +92,9 @@ i {
         margin: 15% auto;
     }
 }
+
+@media only screen and (max-width: 361px) {
+    .dropdown-menu {
+        font-size: 0.8rem;
+    }
+}

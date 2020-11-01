@@ -37,3 +37,41 @@
         font-size: 5rem;
     }
 }
+
+@media only screen and (max-width: 599px) {
+    .ingredientsList {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    i {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .display-4 {
+        font-size: 4rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 339px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+
+    .container p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .dropdown-menu {
+        font-size: 0.8rem;
+    }
+}
