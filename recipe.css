@@ -1,6 +1,6 @@
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.2);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 400px) {
@@ -18,7 +18,7 @@
     bottom: 8px;
     right: 16px;
     font-size: 10px;
-    color: rgba(0, 0, 0, 1);
+    color: white;
 }
 
 .credit a {
@@ -30,4 +30,16 @@
     width: 100%;
     height: 40vw;
     object-fit: cover;
+}
+
+@media only screen and (max-width: 991px) {
+    .display-4 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    ul {
+        font-size: 1.5rem;
+    }
 }
