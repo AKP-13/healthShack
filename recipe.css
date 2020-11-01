@@ -13,6 +13,15 @@
     position: relative;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    margin-top: auto;
+}
+
 .credit {
     position: absolute;
     bottom: 8px;
